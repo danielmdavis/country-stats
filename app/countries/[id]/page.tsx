@@ -4,7 +4,8 @@ const data = require('./../../../countries.json')
 
 
 export default function CountryView(context: any) {
-  const country = data.find(i => i.id == context.params.id)
+  let i: any
+  const country = data.find((i: any) => i.id == context.params.id)
 
   return (
     <div style={{ margin: 'auto', display: 'block' }}>
