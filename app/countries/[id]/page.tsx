@@ -14,7 +14,7 @@ export default function CountryView(context: any) {
         <h1>{country?.name} {country?.emoji}</h1>
         <div>capital: {country?.capital}</div>
         <div>region: {country?.region}</div>
-        <div>currency: {country?.currency_name} (<span style={{fontSize: '1.2em'}}>{country.currency_symbol}</span>)</div>
+        <div>currency: {country?.currency_name} (<span style={{fontSize: '1.2em'}}>{country?.currency_symbol}</span>)</div>
       </div>
     </div>
   )
