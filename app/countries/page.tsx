@@ -24,7 +24,7 @@ export default function CountriesHome() {
   return (
     <main>
       <br /><br />
-      <h1>ze countries</h1>
+      <h1>ze countries in the world</h1>
      {countries}
     </main>
   )

@@ -8,7 +8,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav className='navbar'>foo</nav>
+        <nav className='navbar'>All the countries in the world</nav>
         {children}
         </body>
     </html>

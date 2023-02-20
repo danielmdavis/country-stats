@@ -6,8 +6,8 @@ const data = require('./../../../countries.json')
 export default function CountryView(context: any) {
   let i: any
   const country = data.find((i: any) => i.id == context.params.id)
-  let curSymbol: string = ''
-  let curName: string = ''
+  const curSymbol: string = country.currency_symbol ? country.currency_symbol : ''
+  const curName: string = country.currency_name ? country.currency_name : ''
 
   return (
     <div style={{ margin: 'auto', display: 'block' }}>
